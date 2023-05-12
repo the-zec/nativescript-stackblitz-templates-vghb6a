@@ -1,0 +1,23 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Yaparım.com" icon="" />
+  <StackLayout class="form">
+  <StackLayout class="input-field">
+    <TextField class="input"></TextField>
+  </StackLayout>
+
+  <StackLayout class="input-field">
+    <TextField class="input"></TextField>
+  </StackLayout>
+
+  <Button text="Log In" class="btn btn-primary"></Button>
+</StackLayout>
+
+<FlexboxLayout class="page">
+  <StackLayout class="form">
+    ...
+  </StackLayout>
+
+  <Label text="Don’t have an account?"></Label>
+</FlexboxLayout>
+    <TextField class="input" hint="Email" keyboardType="email" autocorrect="false" autocapitalizationType="none"></TextField>
+</Page>
